@@ -1,0 +1,126 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Flamur Portfilio</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" 
+        integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="C:\Users\Flamur\Desktop\PortfilioProject\css\style.css">
+
+    </head>
+    <body>
+            <header>
+                <!---
+                <div class="logo">
+                    <img src="" alt="logo">
+                </div>
+            -->
+                <button class="nav-toggle" aria-label="toggle-navigation">
+                    <span class="hamburger"></span>
+                </button>
+                <nav class="nav">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                        <li class="nav__item"><a href="index.html#services" class="nav__link">Main Skills</a></li>
+                        <li class="nav__item"><a href="index.html#about" class="nav__link">About me</a></li>
+                        <li class="nav__item"><a href="index.html#work" class="nav__link">Projects</a></li>
+                    </ul>
+                </nav>
+            </header>
+
+                <!-- Intoduction -->
+                <section class="intro" id="home">
+                    <h1 class="section__title section__title--intro">
+                        Hi, I am<Strong>Flamur Kelmendi</Strong>
+                    </h1>
+                        <p class="section__subtitle section__subtitle--intro">Full Stack Developer</p>
+                        <img src="Images\profilePicture.jpg" alt="profile picture of me" >
+                </section>
+
+                <section class="my-services" id="services">
+                    <h2 class="section__title section__title--services">My Main Skills</h2>
+                    <div class="services">
+                        <div class=service>
+                            <h3>Back End Development</h3>
+                            <p>Almost two years of professional experience with creating RESTful api's using spring boot. This includes creating all classes, DTOs, repo functions, endpoint functions, and routing.
+                                Also familiar with OAuth and testing endpoints using PostMan. Lastly, I have professional experience using SQL to create and query data.
+                            </p>
+                        </div> <!-- skill -->
+
+                        <div class=service>
+                            <h3>Front End Development</h3>
+                            <p>Worked with vannila javascript, jquery, css and HTML. Also have worked on mobile devlopment using react native. I am also familiar with using several front 
+                                end technologies to origanize data such as DataTables with Bootstrap.
+                            </p>
+                        </div> <!-- skill -->
+
+                        <div class=service>
+                            <h3>Cloud Experience</h3>
+                            <p>Some Experience working with AWS to modify and debug a pdf processer that was used in an AWS lambda running in an EC2 instance. Currently I am studying
+                                to complete my associate Developer certificate with AWS and will have it completed by the end of Feburary. 
+                            </p>
+                        </div> <!-- skill -->
+
+
+                    </div>
+                    <a href="#work" class="btn">My Projects</a>
+                </section>
+
+                <!-- about me-->
+                <section class="about-me" id="about">
+                    <h2 class="section__title section__title--about">About Me</h2>
+                    <p class="section__subtitle section__subtitle--about">Developer based outside of Chicago</p>
+                    <div class="about-me__body">
+                        <p>A little about me. I am a recent graduate from Lewis University with a bachlors degree in computer science. I have almost two years of professional experience
+                            working as a Junior Full stack developer. I love learning new technologies and skills! </p>
+        
+                            <p>In my free time I like to rock climb, play chess, play video games, watch anime, and learn new intruments. The latest intrument I
+                                 picked up was the Kalimba!</p>
+                    </div>
+                   <br><img src="Images\FlamAndBro2.PNG" alt="picture of me doing something cool" class="about-me__img">
+                        <figcaption>My brother and I at Lombard Street in San Fransico</figcaption>
+
+                </section>
+
+
+                <section class="my-work" id="work">
+                    <h2 class="section__title section__title--work">My work</h2>
+                        <p class="section__subtitle section__subtitle--work">Some of my work. More to come!</p>
+
+                    <div class="portfolio">
+                        <!-- portfolio item 2-->
+                        <a href="portfolio-item.html" class="portfolio__item">
+                            <img src="Images\LifeDirections.jpg" alt="CapStone Project" class="portfolio__img">
+                        </a>
+                        <!-- portfolio item 2-->
+                        <a href="#" class="portfolio__item">
+                            <img src="Images\springBoot.png" alt="Spring Boot Project" class="portfolio__img">
+                        </a>
+                    </div>
+                </section>
+
+                <footer class="footer">
+                    <a href="mailto:kelflamur@gmail.com" class="footer-link">kelflamur@gmail.com</a>
+                    <ul class="social-list">
+                        <li class="social-list__item">
+                            <a class="social-list__link" href="https://www.linkedin.com/in/flamur-kelmendi-b5a39214a/" target="_blank">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                        </li>
+                        <li class="social-list__item"><a class="social-list__link" href="https://github.com/kelFlamur" target="_blank">
+                            <i class="fab fa-github"></i>
+                        </a></li>
+                        <!--<li class="social-list__item"><a class="social-list__link" href="google.com">google</a></li> -->
+                    </ul>
+                </footer>
+
+                <script src="javascript/index.js"></script>
+
+    </body>
+</html>
