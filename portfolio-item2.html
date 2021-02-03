@@ -35,31 +35,46 @@
         
         <section class="intro" id="home">
             <h1 class="section__title section__title--intro">
-                A project for Life Directions.<Strong>A Youth Group</Strong>
+                A Spring Boot Project for<Strong> Employee Management</Strong>
             </h1>
-                <p class="section__subtitle section__subtitle--intro">A Capstone Project</p>
-                <img src="Images\LifeDirections.jpg" alt="Life Directions" >
+                <p class="section__subtitle section__subtitle--intro">Using React + Spring Boot</p>
+                <img src="Images\springBoot.PNG" alt="Life Directions" >
         </section>
 
         <div class="portfolio-item-individual">
-            <p>Life Directions was a non-for-profit company that served under privileged city children. Their goal was to inspire young adults through religion. </p>
-
-            <p>Our group was tasked with creating a mobile app that allowed these young adults to keep track of their bible scripture readings for 9 days will they were out on a mission trip</p>
-            <p>To do this our group used react native with redux, and firebase. It allowed users to track in, create a profile, and see their progress in real time. I was responsible for 
-                a large portion of UI and navigation. <a class="social-list__link" href="https://github.com/kelFlamur/LewisProject" target="_blank">
+            <p>The Point of this project was to show the four basic CRUD commands using Spring Boot - a microservice. In the application you are able to add employees by First Name, Last Name, and Email. You are also able to delete an employee and update one as well. The Employee
+                Managment App data is displayed in a table so it is easier to view all employees. </p>
+                
+            <p>The app uses React for the front end and Spring Boot for the back end. For communication between the back end and front end
+                I used the axios library. I also used Bootstrap for a lot of the styling. Finnaly I used a MySQL database to store all the data and create the proper fields.
+                Spring Boot was helpful for this because I untitilzed a libary in Spring called Hibernate to automatically generate all the fields for me when I create them in the back end.
+                <a class="social-list__link" href="https://github.com/kelFlamur/LewisProject" target="_blank">
                     <i class="fab fa-github"></i>
                 </a> </p>
 
         </div>
+
+        
         <div class="row">
             <div class="column">
-              <img src="Images\LifeDirections1.jpg"  alt="Life Directions example" >
+                <!-- Trigger the Modal -->
+                <img id="myImg" src="Images\springBootProject1.JPG" alt="Spring Boot Project" style="width:100%;max-width:300px; padding-bottom: 10px;">
+                <img id="myImg2" src="Images\springBootProject2.JPG" alt="Spring Boot Project" style="width:100%;max-width:300px">
+
+                <!-- The Modal -->
+                <div id="myModal" class="modal">
+
+                <!-- The Close Button -->
+                <span class="close">&times;</span>
+
+                <!-- Modal Content (The Image) -->
+                <img class="modal-content" id="img01">
+
+                <!-- Modal Caption (Image Text) -->
+                <div id="caption"></div>
+                </div>
             </div>
-            <div class="column">
-              <img src="Images\LifeDirections2.jpg" alt="life driections example 2" >
-            </div>
-        </div>
-        
+        </div>        
         
         <!-- Footer -->
         <footer class="footer">
